@@ -43,6 +43,4 @@ outputs:
     description: The ID of the workflow that was triggered by this action
   workflow_url:
     description: The URL of the workflow that was triggered by this action
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
+runs: bash entrypoint.sh
